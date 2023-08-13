@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A5E43"
+    tools:context=".Tips">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@drawable/light_page_bg"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Sustainable Clothing Tips"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/title2"/>
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Why Reusing and Recycling Clothes Matters"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title1"
+                    app:layout_constraintBottom_toTopOf="@id/text1"/>
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title2"
+                    app:layout_constraintBottom_toTopOf="@+id/text2"
+                    android:text="Reduces waste: By reusing and recycling clothes, we can prevent them from ending up in landfills, where they contribute to the growing waste problem. The textile industry generates a staggering amount of waste each year, and extending the life of garments is an effective way to combat this issue."
+                    />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text1"
+                    app:layout_constraintBottom_toTopOf="@+id/text3"
+                    android:layout_marginTop="10dp"
+                    android:text="Conserves resources: The production of new clothes requires vast amounts of water, energy, and raw materials. By reusing and recycling clothes, we help conserve these valuable resources and reduce the environmental impact associated with their extraction and manufacturing."
+                    />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text2"
+                    android:layout_marginTop="10dp"
+                    android:text="Decreases carbon footprint: Producing new clothes has a significant carbon footprint due to manufacturing processes, transportation, and the use of fossil fuels. By extending the lifespan of garments through reuse and recycling, we can significantly reduce carbon emissions and mitigate climate change."
+                    />
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choosing Clothes for Sustainable Living:"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text3"
+                    app:layout_constraintBottom_toTopOf="@id/text4"/>
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title3"
+                    app:layout_constraintBottom_toTopOf="@+id/text5"
+                    android:text="Quality over quantity: Invest in well-made garments that will last longer and withstand multiple uses, rather than buying cheap, disposable items that quickly wear out. High-quality clothes are more durable, reducing the need for frequent replacements and reducing waste."
+                    />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text4"
+                    app:layout_constraintBottom_toTopOf="@+id/text6"
+                    android:layout_marginTop="10dp"
+                    android:text="Natural and organic materials: Opt for clothes made from organic cotton, linen, hemp, or bamboo. These materials are grown without harmful pesticides and synthetic fertilizers, reducing environmental impact and supporting healthier ecosystems."
+                    />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text5"
+                    app:layout_constraintBottom_toTopOf="@+id/text7"
+                    android:layout_marginTop="10dp"
+                    android:text="Second-hand shopping: Embrace the thrill of treasure hunting by exploring thrift stores, consignment shops, and online platforms for pre-loved clothing. Buying second-hand items not only extends their life but also reduces the demand for new production, minimizing resource consumption and promoting a circular economy."
+                    />
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text6"
+                    app:layout_constraintBottom_toTopOf="@+id/text8"
+                    android:layout_marginTop="10dp"
+                    android:text="Clothing swaps: Organize or participate in clothing swap events with friends, family, or your community. Swapping clothes allows you to give new life to garments you no longer wear, while also discovering unique and exciting pieces from others. It's a fun and sustainable way to refresh your wardrobe without contributing to the environmental impacts of the fashion industry."
+                    />
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text7"
+                    app:layout_constraintBottom_toTopOf="@+id/title4"
+                    android:layout_marginTop="10dp"
+                    android:text="Ethical brands: Support sustainable and ethical fashion brands that prioritize fair labor practices, use eco-friendly materials, and have transparent supply chains. By choosing brands committed to sustainability, you can make a positive impact and encourage responsible practices within the industry."
+                    />
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What to Wear and Avoid:"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text8"
+                    app:layout_constraintBottom_toTopOf="@id/text9"/>
+                <TextView
+                    android:id="@+id/text9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title4"
+                    app:layout_constraintBottom_toTopOf="@+id/text10"
+                    android:text="Wear timeless styles: Choose classic designs that won't go out of fashion quickly. By opting for timeless pieces, you're more likely to wear them for a longer time, reducing the need for constant replacements and reducing waste."
+                    />
+
+                <TextView
+                    android:id="@+id/text10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text9"
+                    app:layout_constraintBottom_toTopOf="@+id/text11"
+                    android:layout_marginTop="10dp"
+                    android:text="Versatile pieces: Select items that can be mixed and matched to create multiple outfits. This maximizes the use of each garment and minimizes the need for a large wardrobe. By being creative with styling, you can make the most of your clothes and minimize the environmental impact of fashion."
+                    />
+
+                <TextView
+                    android:id="@+id/text11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text10"
+                    app:layout_constraintBottom_toTopOf="@+id/text12"
+                    android:layout_marginTop="10dp"
+                    android:text="Avoid fast fashion: Fast fashion brands often prioritize quick, cheap production, resulting in low-quality garments and unethical manufacturing practices. Steer clear of these brands to promote sustainability and support companies that prioritize environmental and social responsibility."
+                    />
+                <TextView
+                    android:id="@+id/text12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text11"
+                    app:layout_constraintBottom_toTopOf="@+id/title5"
+                    android:layout_marginTop="10dp"
+                    android:text="Synthetic materials: Synthetic fibers like polyester and nylon have a high carbon footprint and contribute to microplastic pollution when washed. Limit their use or opt for recycled versions when necessary. Choose natural and sustainable alternatives whenever possible to reduce environmental harm."
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Caring for Your Clothes:"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text12"
+                    app:layout_constraintBottom_toTopOf="@id/text13"/>
+                <TextView
+                    android:id="@+id/text13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title5"
+                    app:layout_constraintBottom_toTopOf="@+id/text14"
+                    android:text="Proper washing: Follow care instructions on clothing labels to prolong their lifespan. Using cold water, eco-friendly detergents, and air drying whenever possible can save energy, reduce water usage, and prevent unnecessary wear and tear."
+                    />
+
+                <TextView
+                    android:id="@+id/text14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text13"
+                    app:layout_constraintBottom_toTopOf="@+id/text15"
+                    android:layout_marginTop="10dp"
+                    android:text="Repair and alterations: Extend the life of your clothes by fixing minor damages and making alterations when needed. Learning basic sewing skills or seeking help from local tailors can help you keep your garments in good condition and avoid unnecessary replacements."
+                    />
+
+                <TextView
+                    android:id="@+id/text15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text14"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:text="Clothing swaps: Organize clothing swap events with friends, family, or your community. By exchanging clothes you no"                    />
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </ScrollView>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ecothreads_logo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

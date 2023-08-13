@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "620162191298",
+    "firebase_url": "https://ecothreads-5b2eb-default-rtdb.firebaseio.com",
+    "project_id": "ecothreads-5b2eb",
+    "storage_bucket": "ecothreads-5b2eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620162191298:android:dd24ac5e235a01e6e8905b",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620162191298-dadvicnkefjhlqc829rj367dfqq5hk61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKlpAOY9gs9h8VqCXTRZwWNIuGQ1_Fn48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620162191298-dadvicnkefjhlqc829rj367dfqq5hk61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620162191298:android:ba56a72c041b2ba4e8905b",
+        "android_client_info": {
+          "package_name": "com.example.katyyouthhacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620162191298-dadvicnkefjhlqc829rj367dfqq5hk61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKlpAOY9gs9h8VqCXTRZwWNIuGQ1_Fn48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620162191298-dadvicnkefjhlqc829rj367dfqq5hk61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620162191298:android:03c98b92f6a759bce8905b",
+        "android_client_info": {
+          "package_name": "com.firstapp.kyecothreads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620162191298-dadvicnkefjhlqc829rj367dfqq5hk61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKlpAOY9gs9h8VqCXTRZwWNIuGQ1_Fn48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620162191298-dadvicnkefjhlqc829rj367dfqq5hk61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620162191298",
+    "project_id": "ecothreads-5b2eb",
+    "storage_bucket": "ecothreads-5b2eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620162191298:android:dd24ac5e235a01e6e8905b",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620162191298-dadvicnkefjhlqc829rj367dfqq5hk61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKlpAOY9gs9h8VqCXTRZwWNIuGQ1_Fn48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620162191298-dadvicnkefjhlqc829rj367dfqq5hk61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

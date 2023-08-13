@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KYEcoThreads</string>
+    <string-array name="clothing_types">
+        <item>Shirts</item>
+        <item>Pants</item>
+        <item>Jackets</item>
+        <item>Denim</item>
+        <item>Shoes</item>
+        <item>Accessories</item>
+    </string-array>
+</resources>
